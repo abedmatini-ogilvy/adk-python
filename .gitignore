@@ -24,14 +24,12 @@ wheels/
 venv/
 ENV/
 env/
-.env
 .venv
 env.bak/
 venv.bak/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -78,7 +76,6 @@ logs/
 log/
 
 # Local development settings
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -116,3 +113,5 @@ CLAUDE.md
 .rooignore
 .bolt/
 .v0/
+config.bat
+node_modules
